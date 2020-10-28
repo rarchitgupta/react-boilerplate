@@ -1,5 +1,5 @@
 
-<h1 align="center">Expensify</h1>
+<h1 align="center">React Boilerplate</h1>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -14,7 +14,7 @@
 
 ## Overview
 
-A expenses and budget management app which uses Google Login for authentication. 
+A file structure with related dependencies to create a front-end React App
 
 ### Built With
 
@@ -24,7 +24,6 @@ A expenses and budget management app which uses Google Login for authentication.
 - [Redux](https://redux.js.org/)
 - [Jest](https://jestjs.io/)
 - [Enzyme](https://github.com/enzymejs/enzyme)
-- [Firebase](https://firebase.google.com/)
 
 ## How To Use
 

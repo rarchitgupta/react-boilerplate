@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should render Header correctly 1`] = `
+exports[`should render Header correctly 1`] = `
 <header
   className="header"
 >
@@ -12,10 +12,11 @@ exports[`Should render Header correctly 1`] = `
     >
       <Link
         className="header__title"
+        replace={false}
         to="/dashboard"
       >
         <h1>
-          Expensify
+          Boilerplate
         </h1>
       </Link>
       <button

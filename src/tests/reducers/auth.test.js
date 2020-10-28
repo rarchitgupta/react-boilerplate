@@ -1,20 +1,18 @@
-import { auth } from "firebase";
-import authReducer from "../../reducers/auth";
+import authReducer from '../../reducers/auth';
 
-test("Should set UID for login", () => {
+test('should set uid for login', () => {
   const action = {
-    type: "LOGIN",
-    uid: "abc",
+    type: 'LOGIN',
+    uid: 'abc123'
   };
-
   const state = authReducer({}, action);
   expect(state.uid).toBe(action.uid);
 });
 
-test("Should clear UID for logout", () => {
+test('should clear uid for logout', () => {
   const action = {
-    type: "LOGOUT",
+    type: 'LOGOUT'
   };
-  const state = authReducer({ uid: "anything" }, action);
+  const state = authReducer({ uid: 'anything' }, action);
   expect(state).toEqual({});
 });
